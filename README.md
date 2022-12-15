@@ -1,6 +1,6 @@
 ## right:
 ```rust
-let guard = scopeguard::defer(|| xyz);
+let _guard = scopeguard::defer(|| xyz);
 ```
 ## wrong:
 ```rust
